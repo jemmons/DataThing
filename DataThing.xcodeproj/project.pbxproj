@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7358265A21A1BDD300DE1C3C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358265921A1BDD300DE1C3C /* Person.swift */; };
 		7358265D21A1D47A00DE1C3C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7358265C21A1D47A00DE1C3C /* CoreData.framework */; };
 		7358265F21A205C400DE1C3C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358265E21A205C400DE1C3C /* DetailViewController.swift */; };
-		7358266221A2136200DE1C3C /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358266121A2136200DE1C3C /* Company.swift */; };
 		7358266421A215BE00DE1C3C /* CompanyTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358266321A215BE00DE1C3C /* CompanyTableController.swift */; };
 		735F746A21A1B346002CFEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F746921A1B346002CFEE9 /* AppDelegate.swift */; };
 		735F746C21A1B346002CFEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F746B21A1B346002CFEE9 /* ViewController.swift */; };
 		735F746F21A1B346002CFEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735F746D21A1B346002CFEE9 /* Main.storyboard */; };
-		735F747221A1B346002CFEE9 /* DataThing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 735F747021A1B346002CFEE9 /* DataThing.xcdatamodeld */; };
 		735F747421A1B348002CFEE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 735F747321A1B348002CFEE9 /* Assets.xcassets */; };
 		735F747721A1B348002CFEE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735F747521A1B348002CFEE9 /* LaunchScreen.storyboard */; };
 		735F748221A1B348002CFEE9 /* DataThingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F748121A1B348002CFEE9 /* DataThingTests.swift */; };
 		739F100521A2437700C6EE43 /* PointlessPeople.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739F100421A2437700C6EE43 /* PointlessPeople.framework */; };
+		C122B59621FE2A03007DDCEE /* PointlessOthers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C122B59421FE2A03007DDCEE /* PointlessOthers.framework */; };
+		C122B59721FE2A03007DDCEE /* ByrdStation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C122B59521FE2A03007DDCEE /* ByrdStation.framework */; };
+		C122B59921FE57E6007DDCEE /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = C122B59821FE57E6007DDCEE /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7358265921A1BDD300DE1C3C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		7358265C21A1D47A00DE1C3C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7358265E21A205C400DE1C3C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		7358266121A2136200DE1C3C /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		7358266321A215BE00DE1C3C /* CompanyTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTableController.swift; sourceTree = "<group>"; };
 		735F746621A1B346002CFEE9 /* DataThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		735F746921A1B346002CFEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		735F746B21A1B346002CFEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		735F746E21A1B346002CFEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		735F747121A1B346002CFEE9 /* DataThing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataThing.xcdatamodel; sourceTree = "<group>"; };
 		735F747321A1B348002CFEE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		735F747621A1B348002CFEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		735F747821A1B348002CFEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +47,9 @@
 		735F748121A1B348002CFEE9 /* DataThingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataThingTests.swift; sourceTree = "<group>"; };
 		735F748321A1B348002CFEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		739F100421A2437700C6EE43 /* PointlessPeople.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PointlessPeople.framework; path = Carthage/Build/iOS/PointlessPeople.framework; sourceTree = "<group>"; };
+		C122B59421FE2A03007DDCEE /* PointlessOthers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PointlessOthers.framework; path = Carthage/Build/iOS/PointlessOthers.framework; sourceTree = "<group>"; };
+		C122B59521FE2A03007DDCEE /* ByrdStation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ByrdStation.framework; path = Carthage/Build/iOS/ByrdStation.framework; sourceTree = "<group>"; };
+		C122B59821FE57E6007DDCEE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C122B59621FE2A03007DDCEE /* PointlessOthers.framework in Frameworks */,
+				C122B59721FE2A03007DDCEE /* ByrdStation.framework in Frameworks */,
 				739F100521A2437700C6EE43 /* PointlessPeople.framework in Frameworks */,
 				7358265D21A1D47A00DE1C3C /* CoreData.framework in Frameworks */,
 			);
@@ -72,18 +74,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7358265821A1BDC700DE1C3C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				7358265921A1BDD300DE1C3C /* Person.swift */,
-				7358266121A2136200DE1C3C /* Company.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		7358265B21A1D47A00DE1C3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C122B59521FE2A03007DDCEE /* ByrdStation.framework */,
+				C122B59421FE2A03007DDCEE /* PointlessOthers.framework */,
 				739F100421A2437700C6EE43 /* PointlessPeople.framework */,
 				7358265C21A1D47A00DE1C3C /* CoreData.framework */,
 			);
@@ -103,6 +98,7 @@
 		735F745D21A1B346002CFEE9 = {
 			isa = PBXGroup;
 			children = (
+				C122B59821FE57E6007DDCEE /* Cartfile */,
 				735F746821A1B346002CFEE9 /* DataThing */,
 				735F748021A1B348002CFEE9 /* DataThingTests */,
 				735F746721A1B346002CFEE9 /* Products */,
@@ -123,13 +119,11 @@
 			isa = PBXGroup;
 			children = (
 				735F746921A1B346002CFEE9 /* AppDelegate.swift */,
-				7358265821A1BDC700DE1C3C /* Models */,
 				7358266021A205C900DE1C3C /* Controllers */,
 				735F746D21A1B346002CFEE9 /* Main.storyboard */,
 				735F747321A1B348002CFEE9 /* Assets.xcassets */,
 				735F747521A1B348002CFEE9 /* LaunchScreen.storyboard */,
 				735F747821A1B348002CFEE9 /* Info.plist */,
-				735F747021A1B346002CFEE9 /* DataThing.xcdatamodeld */,
 			);
 			path = DataThing;
 			sourceTree = "<group>";
@@ -227,6 +221,7 @@
 			files = (
 				735F747721A1B348002CFEE9 /* LaunchScreen.storyboard in Resources */,
 				735F747421A1B348002CFEE9 /* Assets.xcassets in Resources */,
+				C122B59921FE57E6007DDCEE /* Cartfile in Resources */,
 				735F746F21A1B346002CFEE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +245,8 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/PointlessPeople.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PointlessOthers.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ByrdStation.framework",
 			);
 			name = "Carthage Script";
 			outputFileListPaths = (
@@ -269,12 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				735F746C21A1B346002CFEE9 /* ViewController.swift in Sources */,
-				735F747221A1B346002CFEE9 /* DataThing.xcdatamodeld in Sources */,
 				7358265F21A205C400DE1C3C /* DetailViewController.swift in Sources */,
-				7358265A21A1BDD300DE1C3C /* Person.swift in Sources */,
 				735F746A21A1B346002CFEE9 /* AppDelegate.swift in Sources */,
 				7358266421A215BE00DE1C3C /* CompanyTableController.swift in Sources */,
-				7358266221A2136200DE1C3C /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,19 +543,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		735F747021A1B346002CFEE9 /* DataThing.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				735F747121A1B346002CFEE9 /* DataThing.xcdatamodel */,
-			);
-			currentVersion = 735F747121A1B346002CFEE9 /* DataThing.xcdatamodel */;
-			path = DataThing.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 735F745E21A1B346002CFEE9 /* Project object */;
 }

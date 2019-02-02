@@ -1,12 +1,10 @@
 import UIKit
 import CoreData
+import PointlessPeople
 
 
 class CompanyTableViewController: UITableViewController {
-  private lazy var fetchedResultsController: NSFetchedResultsController = makeFetchedResults()
-  private var moc: NSManagedObjectContext {
-    return (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-  }
+  private lazy var fetchedResultsController: NSFetchedResultsController<Company> = Company.resultsController(delegate: self)
   public var person: Person?
 
   override func viewDidLoad() {
@@ -15,14 +13,12 @@ class CompanyTableViewController: UITableViewController {
   }
   
   @IBAction func add() {
-    NSEntityDescription.insertNewObject(forEntityName: "Company", into: moc)
+    Company.insert()
   }
   
   
   private func makeFetchedResults() -> NSFetchedResultsController<Company> {
-    let req: NSFetchRequest<Company> = NSFetchRequest(entityName: "Company")
-    req.sortDescriptors = [NSSortDescriptor(keyPath: \Company.name, ascending: true)]
-    let frc = NSFetchedResultsController(fetchRequest: req, managedObjectContext: moc, sectionNameKeyPath: nil, cacheName: nil)
+    let frc = Company.resultsController(delegate: self)
     frc.delegate = self
     return frc
   }

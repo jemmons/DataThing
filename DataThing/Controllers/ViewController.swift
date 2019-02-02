@@ -3,16 +3,11 @@ import CoreData
 import PointlessPeople
 
 class ViewController: UITableViewController {
-  lazy var fetchedResultsController: NSFetchedResultsController = makeFetchedResults()
-  private var moc: NSManagedObjectContext {
-    return (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-  }
+  lazy var fetchedResultsController: NSFetchedResultsController<Person> = Person.resultsController(delegate: self)
 
   
   @IBAction func add(){
-    let f = First()
-    print(f)
-    NSEntityDescription.insertNewObject(forEntityName: "Person", into: moc)
+    Person.insert()
   }
   
   override func viewDidLoad() {
@@ -55,13 +50,6 @@ class ViewController: UITableViewController {
 
 
 private extension ViewController {
-  func makeFetchedResults() -> NSFetchedResultsController<Person> {
-    let req: NSFetchRequest<Person> = NSFetchRequest(entityName: "Person")
-    req.sortDescriptors = [NSSortDescriptor(keyPath: \Person.lastName, ascending: true)]
-    let frc = NSFetchedResultsController(fetchRequest: req, managedObjectContext: moc, sectionNameKeyPath: nil, cacheName: nil)
-    frc.delegate = self
-    return frc
-  }
 }
 
 
